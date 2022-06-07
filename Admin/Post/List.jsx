@@ -1,5 +1,5 @@
 import TextSnippetIcon from '@mui/icons-material/TextSnippet';
-import { List, Text, Enum, ItemAction, Image, BooleanProperty, Chip, ValueWithTitle, DateTimeTitleAgo, TitleSubtitle, EnumProperty, app } from '@List'
+import { List, Text, Enum, EntityAction, Image, BooleanProperty, Chip, ValueWithTitle, DateTimeTitleAgo, TitleSubtitle, EnumProperty, app } from '@List'
 import UpsertPost from './Upsert'
 import { ManageTags } from '../../Taxonomy/Exports'
 import { ManageHierarchies } from '../../Taxonomy/Exports'
@@ -83,12 +83,12 @@ const row = (item) => {
     </>
 }
 
-const itemActions = (item) => <>
+const entityActions = (item) => <>
     <EntitySeo
         entityType='BlogPost'
         entityGuid={item.guid}
     />
-    <ItemAction
+    <EntityAction
         title='Edit content'
         icon={TextSnippetIcon}
         goTo={`/post/editContent?id=${item.id}`}
@@ -118,7 +118,7 @@ const BlogPosts = () => {
         create={UpsertPost}
         hasEdit={true}
         hasDelete={true}
-        itemActions={itemActions}
+        entityActions={entityActions}
         separateRowForActions={true}
         // menuForActions={true}
     // dialogs={[UpsertPost, ManageTags]}
