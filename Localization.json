@@ -6,7 +6,11 @@
             "Posts": "پست ها",
             "Comments": "کامنت ها",
             "Categories": "دسته بندی ها",
-            "Tags": "برچسب ها"
+            "Tags": "برچسب ها",
+            "Title": "عنوان",
+            "Last Update": "آخرین ویرایش",
+            "State": "وضعیت",
+            "Comments Enabled?": "نظرها فعال است؟"
         }
     },
     {
