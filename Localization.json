@@ -1,49 +1,22 @@
-{
-    "texts": [
-        {
-            "text": "Blog",
-            "translations": [
-                {
-                    "locale": "fa",
-                    "translation": "وبلاگ"
-                }
-            ]
-        },
-        {
-            "text": "Posts",
-            "translations": [
-                {
-                    "locale": "fa",
-                    "translation": "پست ها"
-                }
-            ]
-        },
-        {
-            "text": "Comments",
-            "translations": [
-                {
-                    "locale": "fa",
-                    "translation": "کامنت ها"
-                }
-            ]
-        },
-        {
-            "text": "Categories",
-            "translations": [
-                {
-                    "locale": "fa",
-                    "translation": "دسته بندی ها"
-                }
-            ]
-        },
-        {
-            "text": "Tags",
-            "translations": [
-                {
-                    "locale": "fa",
-                    "translation": "برچسب ها"
-                }
-            ]
+[
+    {
+        "locale": "fa",
+        "translations": {
+            "Blog": "وبلاگ",
+            "Posts": "پست ها",
+            "Comments": "کامنت ها",
+            "Categories": "دسته بندی ها",
+            "Tags": "برچسب ها"
         }
-    ]
-}
+    },
+    {
+        "locale": "jp",
+        "translations": {
+            "Blog": "وبلاگ",
+            "Posts": "پست ها",
+            "Comments": "کامنت ها",
+            "Categories": "دسته بندی ها",
+            "Tags": "برچسب ها"
+        }
+    }
+]
