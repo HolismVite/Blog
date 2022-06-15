@@ -21,7 +21,7 @@ const filters = <>
 
 const headers = <>
     <th></th>
-    <th start={true}>Title</th>
+    <th start>Title</th>
     <th>Last update</th>
     <th>State</th>
     <th>Comments enabled?</th>
