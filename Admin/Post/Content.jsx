@@ -1,4 +1,4 @@
-import { Form, Rte, app, post } from '@Form'
+import { PageForm, Rte, app, post } from '@Form'
 
 const inputs = <>
     <Rte
@@ -8,7 +8,7 @@ const inputs = <>
 </>
 
 const PostContent = () => {
-    return <Form
+    return <PageForm
         title='Edit content'
         entityType="BlogPostContent"
         inputs={inputs}

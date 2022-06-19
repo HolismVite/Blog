@@ -1,4 +1,4 @@
-import { Form, Text, LongText, Slug } from '@Form'
+import { DialogForm, Text, LongText, Slug } from '@Form'
 
 const inputs = <>
     <Text
@@ -14,10 +14,9 @@ const inputs = <>
 </>
 
 const UpsertPost = () => {
-    return <Form
-        // title={(mode) => mode === app.formMode.creation ? 'Create a post' : 'Edit the post'}
+    return <DialogForm
         entityType='BlogPost'
-        // humanReadableEntityType='Post'
+        humanReadableEntityType='Post'
         inputs={inputs}
     />
 }
