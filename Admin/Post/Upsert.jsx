@@ -13,8 +13,9 @@ const inputs = <>
     />
 </>
 
-const UpsertPost = () => {
+const UpsertPost = (props) => {
     return <DialogForm
+        {...props}
         entityType='BlogPost'
         humanReadableEntityType='Post'
         inputs={inputs}

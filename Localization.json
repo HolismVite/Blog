@@ -3,7 +3,7 @@
         "locale": "fa",
         "translations": {
             "Blog": "وبلاگ",
-            "Posts": "پست ها",
+            "Posts": "مطالب",
             "Comments": "نظر ها",
             "Categories": "دسته بندی ها",
             "Tags": "برچسب ها",
@@ -15,14 +15,15 @@
             "Manage Hierarchies": "مدیریت دسته بندی ها",
             "Manage Tags": "مدیریت برچسب ها",
             "Edit Content": "تغییر محتوا",
-            "Manage SEO": "مدیریت موتور جستجو"
+            "Manage SEO": "مدیریت موتور جستجو",
+            "Create Post": "ایجاد مطلب"
         }
     },
     {
         "locale": "jp",
         "translations": {
             "Blog": "وبلاگ",
-            "Posts": "پست ها",
+            "Posts": "مطالب",
             "Comments": "کامنت ها",
             "Categories": "دسته بندی ها",
             "Tags": "برچسب ها"
