@@ -4,18 +4,10 @@
         "translations": {
             "Blog": "وبلاگ",
             "Posts": "مطالب",
-            "Comments": "نظر ها",
-            "Categories": "دسته بندی ها",
-            "Tags": "برچسب ها",
             "Title": "عنوان",
             "Last Update": "آخرین ویرایش",
             "State": "وضعیت",
-            "Comments Enabled?": "نظرها فعال است؟",
-            "View Comments": "مشاهده نظرها",
-            "Manage Hierarchies": "مدیریت دسته بندی ها",
-            "Manage Tags": "مدیریت برچسب ها",
             "Edit Content": "تغییر محتوا",
-            "Manage SEO": "مدیریت موتور جستجو",
             "Create Post": "ایجاد مطلب",
             "Edit Post": "ویرایش مطلب"
         }
