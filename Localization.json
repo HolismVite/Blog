@@ -13,13 +13,29 @@
         }
     },
     {
-        "locale": "jp",
+        "locale": "ar",
+        "translations": {
+            "Blog": "مقالات",
+            "Posts": "المشاركات",
+            "Title": "عنوان",
+            "Last Update": "اخر تحديث",
+            "State": "حالة",
+            "Edit Content": "تحرير المحتوى",
+            "Create Post": "إنشاء منشور",
+            "Edit Post": "تعديل المنشور"
+        }
+    },
+    {
+        "locale": "ru",
         "translations": {
             "Blog": "وبلاگ",
             "Posts": "مطالب",
-            "Comments": "کامنت ها",
-            "Categories": "دسته بندی ها",
-            "Tags": "برچسب ها"
+            "Title": "عنوان",
+            "Last Update": "آخرین ویرایش",
+            "State": "وضعیت",
+            "Edit Content": "تغییر محتوا",
+            "Create Post": "ایجاد مطلب",
+            "Edit Post": "ویرایش مطلب"
         }
     }
 ]
