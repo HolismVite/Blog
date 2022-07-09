@@ -42,7 +42,8 @@ const row = (item) => {
         <td>
             <Image
                 url={item.relatedItems.imageUrl}
-                uploadUrl={`/blogPost/setImage?postId=${item.id}`}
+                uploadUrl={`/blogPost/setImage?id=${item.id}&property=ImageGuid`}
+                deletionUrl={`/blogPost/deleteImage?id=${item.id}&property=ImageGuid`}
             />
         </td>
         <td>
