@@ -1,10 +1,10 @@
 import TextSnippetIcon from '@mui/icons-material/TextSnippet';
 import { List, Text, Enum, EntityAction, Image, BooleanProperty, ValueWithTitle, DateTimeTitleAgo, TitleSubtitle, EnumProperty, app } from '@List'
 import UpsertPost from './Upsert'
-import { ManageTags } from '../../Taxonomy/Exports'
-import { ManageHierarchies } from '../../Taxonomy/Exports'
-import { EntitySeo } from '../../Seo/Exports'
-import { ViewComments } from '../../Social/Exports'
+import { ManageTags } from 'Taxonomy'
+import { ManageHierarchies } from 'Taxonomy'
+import { EntitySeo } from 'Seo'
+import { ViewComments } from 'Social'
 
 const filters = <>
     <Text
