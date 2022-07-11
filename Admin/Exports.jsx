@@ -1,6 +1,6 @@
 import ArticleIcon from '@mui/icons-material/Article';
 import BlogHierarchies from './Hierarchy/Tree'
-import { BlogPosts } from './Post/List'
+import BlogPosts from './Post/List'
 import PostContent from './Post/Content'
 
 const BlogRoutes = [
@@ -43,6 +43,6 @@ const BlogMenu = [
     }
 ]
 
-export { BlogRoutes }
-export { BlogPosts }
 export { BlogMenu }
+export { BlogPosts }
+export { BlogRoutes }

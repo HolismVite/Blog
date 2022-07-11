@@ -1,4 +1,4 @@
-import { HierarchyTree } from "../../Taxonomy/Hierarchy/Tree";
+import HierarchyTree from "../../Taxonomy/Hierarchy/Tree";
 
 const BlogHierarchies = () => {
     return <HierarchyTree
