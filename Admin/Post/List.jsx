@@ -77,7 +77,7 @@ const row = (item) => {
             <BooleanProperty
                 column='acceptsComment'
                 value={item.acceptsComment}
-                actionUrl={`/blogPost/toggleCommentAcceptance/${item.id}`}
+                actionUrl={`/blogPost/toggleBoolean?id=${item.id}&property=AcceptsComment`}
             />
         </td>
     </>
