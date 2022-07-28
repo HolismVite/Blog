@@ -1,4 +1,4 @@
-import { DialogForm, Text, LongText, Slug } from '@Form'
+import { DialogForm, Text, LongText, Slug } from 'Form'
 
 const inputs = <>
     <Text

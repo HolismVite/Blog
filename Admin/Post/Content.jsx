@@ -1,4 +1,4 @@
-import { PageForm, Rte, app, post } from '@Form'
+import { PageForm, Rte, app, post } from 'Form'
 
 const inputs = <>
     <Rte
